@@ -6,7 +6,11 @@
 body{
      font-family: "Gabarito", sans-serif;
 }
-
+@media(max-width: 700px){
+    .navbar{
+        font-size: 20px;
+    }
+}
 .navbar{
     padding: 10px;
     display: flex;
@@ -241,3 +245,4 @@ gap: 40px;
     display: flex;
     justify-content: space-between;
 }
+
